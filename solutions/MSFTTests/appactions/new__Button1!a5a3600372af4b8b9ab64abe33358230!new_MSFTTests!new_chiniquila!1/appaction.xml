@@ -1,0 +1,30 @@
+<appaction uniquename="new__Button1!a5a3600372af4b8b9ab64abe33358230!new_MSFTTests!new_chiniquila!1">
+  <appmoduleid>
+    <uniquename>new_MSFTTests</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Button1">
+    <label description="Button1" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>9010030.0000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>new_chiniquila</logicalname>
+  </contextentity>
+  <contextvalue>new_chiniquila</contextvalue>
+  <fonticon>Close</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>Button1!a5a3600372af4b8b9ab64abe33358230</name>
+  <onclickeventformulacomponentlibraryid>
+    <name>new_msfttestsdefaultcommandlibrary_5717c</name>
+  </onclickeventformulacomponentlibraryid>
+  <onclickeventformulacomponentname>598b3fa13d0a47acb13f685898c2d35c</onclickeventformulacomponentname>
+  <onclickeventformulafunctionname>OnSelect</onclickeventformulafunctionname>
+  <onclickeventtype>1</onclickeventtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

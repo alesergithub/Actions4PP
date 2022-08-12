@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f9b1045e-813d-4929-93bc-ad65d727b05f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{e6939aa1-2d5b-4129-b4a2-80687e18f2c9}" IsUserDefined="1" labelid="{e0f7cd8f-d336-45f9-8af8-fce6fee15dbd}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b3186fb0-ef46-4ec0-a92c-aa4ee7615c0e}" labelid="{4f7b2644-ad51-44a1-960a-5ab6247aaa37}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a68086d-5e5a-44c4-abc9-2152e4317370}" labelid="{91fa00e7-819a-4193-a3e4-a5565590af03}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr23d_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr23d_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95d813ef-64da-438c-b39e-7ffb6280d4f3}" labelid="{06b6c198-9a3b-4145-81d9-b97b29d70f04}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{e6939aa1-2d5b-4129-b4a2-80687e18f2c9}_section_3" showlabel="true" showbar="false" locklevel="0" id="{cab0a1e8-4778-40e6-3384-3a05338896e0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{e351ee5f-3407-426b-ac30-e2bc2af28c62}">
+                  <labels>
+                    <label description="Section1" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ca611394-ace3-951b-31d4-41bb76201231}" showlabel="true" locklevel="0" labelid="{94e968cb-0a69-442d-9b53-032724b778b6}">
+                        <labels>
+                          <label description="Stage1" languagecode="1033" />
+                        </labels>
+                        <control id="cr23d_stage1" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr23d_stage1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{e6939aa1-2d5b-4129-b4a2-80687e18f2c9}_section_4" showlabel="true" showbar="false" locklevel="0" id="{cde6ac27-80bd-3b12-517a-b4a017184531}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{ee7f9244-75ea-4ffa-93b9-e44fe7d280db}">
+                  <labels>
+                    <label description="Section2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{26e7404a-d469-a4c9-3898-2dd424bada3c}" showlabel="true" locklevel="0" labelid="{541b737a-a0ff-4bc0-a490-5bb444dc4813}">
+                        <labels>
+                          <label description="Stage2" languagecode="1033" />
+                        </labels>
+                        <control id="cr23d_stage2" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr23d_stage2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{e6939aa1-2d5b-4129-b4a2-80687e18f2c9}_section_5" showlabel="true" showbar="false" locklevel="0" id="{d199606a-d5b3-621b-c054-b5cd730de713}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{5751a30a-2bb4-4e62-86fb-5cd03a0a2b05}">
+                  <labels>
+                    <label description="Section3" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c4616cb-2bdb-6c1c-45b1-4b0008b6590c}" showlabel="true" locklevel="0" labelid="{ccede70f-e428-4aad-9fc2-c461ae040ea6}">
+                        <labels>
+                          <label description="Stage3" languagecode="1033" />
+                        </labels>
+                        <control id="cr23d_stage3" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr23d_stage3" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{e2494884-ece1-4045-8463-7c9f9bdbb271}" IsUserDefined="0" height="auto" labelid="{d61cfeac-d048-46b4-bee2-dc3f23d14bca}">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="Notas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{f41a4732-dd4f-4f1f-b6f0-ef238068c5e4}" labelid="{92f1d49f-156e-4d06-80db-27091bd09bf1}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texto de la nota" languagecode="3082" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Form 1" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

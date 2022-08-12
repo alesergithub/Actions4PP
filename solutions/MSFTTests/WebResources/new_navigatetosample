@@ -1,0 +1,66 @@
+function navigateto() {
+
+    var pageInput = {
+        pageType: "entityrecord",
+        entityName: "cr23d_msfttest",
+        formId: "f9b1045e-813d-4929-93bc-ad65d727b05f"
+    };
+    var navigationOptions = {
+        target: 2,
+        height: {
+            value: 80,
+            unit: "%"
+        },
+        width: {
+            value: 70,
+            unit: "%"
+        },
+        position: 1
+    };
+    Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
+        function success() {
+        // Run code on success
+    },
+        function error() {
+        // Handle errors
+    });
+}
+
+function passingFormContextToAnHTML(executionContext) {
+var formContext= executionContext.getFormContext();
+var wrControl= formContext.getControl("WebResource_WebResource_testjsms");
+if(wrControl) {
+wrControl.getContentWindow().then(function(contentWindow) {
+contentWindow.setClientApiContext(Xrm, formContext);})}}
+//This function will be triggered on the on_Change Event of the new_count field.
+function testsCount(executionContext){
+var formContext= executionContext.getFormContext();
+if(formContext.getAttribute("new_count").getValue()==null)
+{
+formContext.getAttribute("new_count").setValue(1);}
+else
+{var actualCount= formContext.getAttribute("new_count").getValue()+1;
+formContext.getAttribute("new_count").setValue(actualCount);}}
+
+function OnChangeCategoryOptions(executionContext) {
+			var formContext = executionContext.getFormContext();
+            var optionSetCategoryVal =  formContext.getAttribute("new_optionset1").getValue();
+            var optionSet = formContext.getControl("new_optionset2");
+			var optionSetValues = optionSet.getAttribute().getOptions();
+            optionSet.clearOptions();
+			optionSetValues.forEach(function (element) {
+                if (optionSetCategoryVal == "100000000") {
+                    if (element.value == "100000000")
+                        optionSet.addOption(element);
+                    else(element.value == "100000001")
+                        optionSet.removeOption(element);
+                }
+                else if(optionSetCategoryVal == "100000001")
+                {
+                    if (element.value == "100000001")
+                        optionSet.addOption(element);
+                    else(element.value == "100000000")
+                        optionSet.removeOption(element);
+                }
+            });
+        }

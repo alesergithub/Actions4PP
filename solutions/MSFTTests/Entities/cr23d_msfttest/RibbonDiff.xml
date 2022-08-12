@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="cr23d.five9.ApplicationRibbon.cr23d_msfttest.AdapterLaunch.0.Hide" Location="five9.ApplicationRibbon.cr23d_msfttest.AdapterLaunch.0" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Close.Close.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Close.Close" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.AddCampaignResponse" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.Delete" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.Edit" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.Expand" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.Export.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.Export" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.Import.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.Import" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.New.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.New" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Chart.RefreshButton.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Chart.RefreshButton" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Charts.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Charts" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.CustomizeEntity" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.DesignView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.DesignView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.DocumentTemplate" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ExportSelectedToExcel" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ExportToExcel" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Import.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.Import" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.MailMerge.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.MailMerge" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ManageView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ManageView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.modern.SendDirectEmail.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.modern.SendDirectEmail" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.NewView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.NewView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.RunReport.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.RunReport" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.RunScript.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.RunScript" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.RunWorkflow" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SaveAsNew" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SaveToCurrent" />
+    <CustomAction Id="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.Send.CustomAction" Location="Mscrm.HomepageGrid.cr23d_msfttest.MainTab.Collaborate.Controls._children" Sequence="61">
+      <CommandUIDefinition>
+        <SplitButton Command="Mscrm.SendShortcutSelected.AlwaysEnabled" Id="Mscrm.HomepageGrid.cr23d_msfttest.Send" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/EmailLink_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" Sequence="61" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" ToolTipDescription="$Resources:Mscrm_HomepageGrid_Other_MainTab_ExportData_Send_ToolTipDescription" ModernImage="EmailLink">
+          <Menu Id="Mscrm.HomepageGrid.cr23d_msfttest.Send.Menu">
+            <MenuSection Id="Mscrm.HomepageGrid.cr23d_msfttest.Send.MenuSection" Sequence="10" DisplayMode="Menu16">
+              <Controls Id="Mscrm.HomepageGrid.cr23d_msfttest.Send.MenuSection.Controls">
+                <Button Command="Mscrm.SendShortcutSelected" Id="Mscrm.HomepageGrid.cr23d_msfttest.Send.Selected" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/EmailLink_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Selected" Sequence="10" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Selected" ToolTipDescription="$Resources:Ribbon.Tooltip.SendShortcut" ModernImage="EmailLink" />
+                <Button Command="Mscrm.SendShortcutView" Id="Mscrm.HomepageGrid.cr23d_msfttest.Send.View" Image32by32="/_imgs/ribbon/SendView_32.png" Image16by16="/_imgs/ribbon/SendView_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.View" Sequence="20" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.View" ToolTipDescription="$Resources:Ribbon.Tooltip.SendShortcut_View" ModernImage="EmailLink" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SendDirectEmail.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SendDirectEmail" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ShowChart.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ShowChartPane" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.SystemView.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.SystemView" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ViewFilters.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ViewFilters" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.ViewHierarchy" />
+    <HideCustomAction HideActionId="cr23d.Mscrm.HomepageGrid.cr23d_msfttest.WordTemplate.Hide" Location="Mscrm.HomepageGrid.cr23d_msfttest.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

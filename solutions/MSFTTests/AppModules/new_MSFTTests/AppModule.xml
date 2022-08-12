@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>new_MSFTTests</UniqueName>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <WebResourceId>6b20f898-4b1a-ed11-b83f-00224837a4fe</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="new_chiniquila" />
+    <AppModuleComponent type="1" schemaName="cr23d_msfttest" />
+    <AppModuleComponent type="62" schemaName="new_MSFTTests" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="MSFT Tests" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="All new features enabled. " languagecode="1033" />
+  </Descriptions>
+  <appelements>
+    <appelement uniquename="new_new_MSFTTests_canvasappid_new_custompagecopy_e9ac2">
+      <canvasappid>
+        <name>new_custompagecopy_e9ac2</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>new_new_MSFTTests_canvasappid_new_custompagecopy_e9ac2</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AllowNotificationsEarlyAccess">
+      <iscustomizable>1</iscustomizable>
+      <value>false</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="AsyncOnLoad">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="AsyncOnSave">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="EnablePowerBIQuickReport">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="msdynce_enableenhanceemailtemplateeditor">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
